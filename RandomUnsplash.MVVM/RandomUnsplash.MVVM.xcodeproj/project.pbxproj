@@ -15,6 +15,7 @@
 		806A05A42AB897920038E5CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 806A05A22AB897920038E5CA /* LaunchScreen.storyboard */; };
 		806A05B02AB89ABA0038E5CA /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A05AF2AB89ABA0038E5CA /* APIRequest.swift */; };
 		806A05B22AB89B130038E5CA /* RandomViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A05B12AB89B130038E5CA /* RandomViewModel.swift */; };
+		806A05B42AB89CB40038E5CA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 806A05B32AB89CB40038E5CA /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		806A05A52AB897920038E5CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		806A05AF2AB89ABA0038E5CA /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		806A05B12AB89B130038E5CA /* RandomViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewModel.swift; sourceTree = "<group>"; };
+		806A05B32AB89CB40038E5CA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				806A05A02AB897920038E5CA /* Assets.xcassets */,
 				806A05A22AB897920038E5CA /* LaunchScreen.storyboard */,
 				806A05A52AB897920038E5CA /* Info.plist */,
+				806A05B32AB89CB40038E5CA /* .gitignore */,
 			);
 			path = RandomUnsplash.MVVM;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806A05B42AB89CB40038E5CA /* .gitignore in Resources */,
 				806A05A42AB897920038E5CA /* LaunchScreen.storyboard in Resources */,
 				806A05A12AB897920038E5CA /* Assets.xcassets in Resources */,
 				806A059F2AB897900038E5CA /* Main.storyboard in Resources */,
