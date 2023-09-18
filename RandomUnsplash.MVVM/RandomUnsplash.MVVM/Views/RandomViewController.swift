@@ -37,6 +37,8 @@ class RandomViewController: UIViewController {
     }
     @objc func randomButtonTouched() {
         viewModel.randomButtonTapped()
+        guard let url = URL(string: viewModel.randomImage) else { return }
+            self.randomImageView.load(url: url)
     }
     
     func setAutoLayout() {
@@ -61,4 +63,16 @@ class RandomViewController: UIViewController {
     
 
 }
-
+extension UIImageView {
+    func load(url: URL) {
+        DispatchQueue.global().async { [weak self] in
+            if let data = try? Data(contentsOf: url) {
+                if let image = UIImage(data: data) {
+                    DispatchQueue.main.async {
+                        self?.image = image
+                    }
+                }
+            }
+        }
+    }
+}
